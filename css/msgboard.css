@@ -1,0 +1,155 @@
+/*动画*/
+@keyframes long {
+    from {
+        width: 160px;
+    }
+    to {
+        width: 1150px;
+    }
+}
+@keyframes textappear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+span{
+    top: 25px;
+    left: 30px;
+    animation: textappear 2s ease-in;
+}
+
+.icon-img{
+    top: 8px;
+    
+}
+.boardicon{
+    animation: textappear 3.5s ease-in;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    border:4px solid rgb(255, 255, 255, 0.3);
+    overflow:hidden;
+    left: 19px; 
+    top: 8px;
+}
+.boardicon img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+
+
+
+/*添加留言时需要修改以下内容*/
+
+.nav{
+    /*下方top数值=text数量*-75*/
+    top: -825px;
+}
+
+.text1{
+    animation: long 1.5s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 30px;
+    /*top数值=text数量*30*/
+}
+.text2{
+    animation: long 1.45s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 60px;
+}
+.text3{
+    animation: long 1.4s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 90px;
+}
+.text4{
+    animation: long 1.35s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 120px;
+}
+.text5{
+    animation: long 1.3s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 150px;
+}
+.text6{
+    animation: long 1.25s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 180px;
+}
+.text7{
+    animation: long 1.2s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 210px;
+}
+.text8{
+    animation: long 1.15s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 240px;
+}
+.text9{
+    animation: long 1.1s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 270px;
+}
+.text10{
+    animation: long 1.05s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 300px;
+}
+.text11{
+    animation: long 1s ease-in;
+    background-color: rgba(129, 182, 226, 0.3);
+    border-radius: 50px;
+    width: 1150px;
+    height: 75px;
+    left: 340px;
+    top: 330px;
+}

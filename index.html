@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>雷欧的博客-首页</title>
+        <meta name="viewport" content="width=device-width",initital-scale=1.0>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/indextext.css">
+        <link rel="stylesheet" type="text/css" href="css/caidan.css">
+        <link rel="shortcut icon" href="img/首页.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!--彩蛋-->
+        <div class="caidan" style="position:absolute">
+            <a href="https://www.bilibili.com/video/BV1GJ411x7h7" target="_blank"><h3>.</h3></a>    
+        </div>
+        <!--提示词-->
+        <div class="smalltext">
+            <center><h3>点击左侧导航栏以跳转不同栏目:)</h3></center>
+        </div>
+        <!--滚动“欢迎”字幕-->
+        <div class="container">
+            <h2><span class="type"></span></h2>
+        </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('.type',{
+                strings:['欢迎','Welcome','Добро пожаловать.','Bienvenue','Bonvenon','Velkommen','benvenuto','Vítejte','Καλώς ήρθατε','ようこそ','ยินดีต้อนรับ','Hoşgeldiniz.','advenisti','witamy','Maligayang pagdating','Selamat Datang'],
+                typeSpeed:70,
+                loop:true,
+                backSpeed:30,
+            })
+        </script>
+        <!--左侧导航栏-->
+        <div class="wrap">
+            <div class="nav">
+                <div class="icon">
+                    <div class="icon-img"><img src="img/Leiou.png"></div>
+                    <div class="icon-con">
+                        <h2>雷欧</h2>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="title">
+                    <p>菜单</p>
+                </div>
+                <div class="menu">
+                    <div class="item">
+                        <div class="light"></div>
+                        <div class="licon">
+                            <a href="index.html"><img src="img/首页.png" width="30px"></a>
+                        </div>
+                        <div class="con">
+                            <a href="index.html">首页</a>        
+                        </div>
+                        <div class="ricon"></div>
+                    </div>
+                    <!-- <div class="item">
+                        <div class="light"></div>
+                        <div class="licon">
+                            <a href="index.html"><img src="img/文章.png" width="30px"></a>
+                        </div>
+                        <div class="con">
+                            <a href="passage.html">文章</a>
+                        </div>
+                        <div class="ricon"></div>
+                    </div> -->
+                    <div class="item">
+                        <div class="light"></div>
+                        <div class="licon">
+                            <a href="index.html"><img src="img/视频.png" width="30px"></a>
+                        </div>
+                        <div class="con">
+                            <a href="bilivideo.html">视频</a>
+                        </div>
+                        <div class="ricon"></div>
+                    </div>
+                    <div class="item">
+                        <div class="light"></div>
+                        <div class="licon">
+                            <a href="index.html"><img src="img/留言板.png" width="30px"></a>
+                        </div>
+                        <div class="con">
+                            <a href="board.html">留言板</a>
+                        </div>
+                        <div class="ricon"></div>
+                    </div>
+                    <div class="item">
+                        <div class="light"></div>
+                        <div class="licon">
+                            <a href="index.html"><img src="img/关于.png" width="30px"></a>
+                        </div>
+                        <div class="con">
+                            <a href="about.html">关于</a>
+                        </div>
+                        <div class="ricon"></div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="title">
+                    <p>联系我</p>
+                </div>
+                <div class="menu">
+                    <div class="item">
+                        <div class="light"></div>
+                        <div class="licon">
+                            <a href="https://space.bilibili.com/509965607/" target="_blank"><img src="img/bilibili.png" width="30px"></a>
+                        </div>
+                        <div class="con">
+                            <a href="https://space.bilibili.com/509965607/" target="_blank">bilibili</a>        
+                        </div>
+                        <div class="ricon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
